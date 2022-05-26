@@ -35,7 +35,7 @@ npm install --save ionic-image-loader
 
 #### 2. Install Required Plugins
 ```
-npm i --save @ionic-native/file
+npm i --save @awesome-cordova-plugins/file
 ionic cordova plugin add cordova-plugin-file
 ```
 
@@ -116,7 +116,7 @@ The `<img-loader>` component takes many attributes that allows you to customize 
 **Note:** The default values can be changed using the [global configuration](https://github.com/zyramedia/ionic-image-loader#global-configuration) feature.
 
 ## Quirks
-In some cases, images won't load on the first time, the culprit seems to be `@ionic-native/file` or `cordova-plugin-file` in its `writeFile` function not calling resolve or reject.
+In some cases, images won't load on the first time, the culprit seems to be `@awesome-cordova-plugins/file` or `cordova-plugin-file` in its `writeFile` function not calling resolve or reject.
 
 In the meantime we find a solution, here's a quick workaround:
 
