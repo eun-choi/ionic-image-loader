@@ -1,7 +1,6 @@
 import { ElementRef, EventEmitter, OnInit, Renderer2 } from '@angular/core';
 import { ImageLoaderConfigService } from './services/image-loader-config.service';
 import { ImageLoaderService } from './services/image-loader.service';
-import * as ɵngcc0 from '@angular/core';
 export interface ImageAttribute {
     element: string;
     value: string;
@@ -95,8 +94,6 @@ export declare class IonicImageLoaderComponent implements OnInit {
      * @param stopLoading set to true to mark the image as loaded
      */
     private setImage;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<IonicImageLoaderComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<IonicImageLoaderComponent, "img-loader", never, { "fallbackUrl": "fallbackUrl"; "spinner": "spinner"; "fallbackAsPlaceholder": "fallbackAsPlaceholder"; "imgAttributes": "imgAttributes"; "cache": "cache"; "width": "width"; "height": "height"; "display": "display"; "backgroundSize": "backgroundSize"; "backgroundRepeat": "backgroundRepeat"; "spinnerName": "spinnerName"; "spinnerColor": "spinnerColor"; "useImg": "useImg"; "noCache": "noCache"; "src": "src"; }, { "load": "load"; }, never, ["*"]>;
 }
 
 //# sourceMappingURL=ionic-image-loader.component.d.ts.map

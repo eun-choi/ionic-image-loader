@@ -3,7 +3,6 @@ import { File } from '@awesome-cordova-plugins/file/ngx';
 import { WebView } from '@awesome-cordova-plugins/ionic-webview/ngx';
 import { Platform } from '@ionic/angular';
 import { ImageLoaderConfigService } from './image-loader-config.service';
-import * as ɵngcc0 from '@angular/core';
 export declare class ImageLoaderService {
     private config;
     private file;
@@ -183,8 +182,6 @@ export declare class ImageLoaderService {
      * If not, we will use the default.
      */
     private getExtensionFromUrl;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<ImageLoaderService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<ImageLoaderService>;
 }
 
 //# sourceMappingURL=image-loader.service.d.ts.map

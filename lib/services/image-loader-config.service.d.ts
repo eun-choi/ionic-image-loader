@@ -1,5 +1,4 @@
 import { HttpHeaders } from '@angular/common/http';
-import * as ɵngcc0 from '@angular/core';
 export declare class ImageLoaderConfigService {
     debugMode: boolean;
     spinnerEnabled: boolean;
@@ -132,8 +131,6 @@ export declare class ImageLoaderConfigService {
      * @param extension fallback extension (e.x .jpg)
      */
     setFallbackFileNameCachedExtension(extension: string): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<ImageLoaderConfigService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<ImageLoaderConfigService>;
 }
 
 //# sourceMappingURL=image-loader-config.service.d.ts.map
